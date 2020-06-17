@@ -1,0 +1,42 @@
+body{
+	color: black;
+	max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 0;
+}
+
+li{
+	margin: 10px;
+}
+
+button{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	width: 15%;
+	border-radius: 10%;
+}
+
+a{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img.homepage-image{
+	margin: 10px;
+	width: 30%;
+}
