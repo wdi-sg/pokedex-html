@@ -1,0 +1,48 @@
+/* Home Page */
+body {
+  font-family: 'Rubik', monospace;
+  color: #57595c;
+  background-color: #edefec;
+  font-size: 16px;
+  align-items: center;
+}
+
+.pixel-poke {
+  
+}
+
+h1 {
+  color: #5c5d5f;
+  font-family: 'Rubik', monospace;
+  font-weight: extra-bold;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hashtag {
+  text-align: right;
+}
+
+/* Eevee Data */
+h2 {
+  position: relative;
+  margin-left: 150px;
+}
+
+/* Main image of Eeveelutions */
+#eevee-png {
+  width: 400px;
+}
+
+
+/* Evolutions */
+.container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+}
