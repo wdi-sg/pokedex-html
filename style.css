@@ -1,0 +1,17 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('http://media-s3-us-east-1.ceros.com/hype-beast/images/2018/07/13/a9a51bc0b8d626db493ab5f9a971b043/background-hero.png');
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
