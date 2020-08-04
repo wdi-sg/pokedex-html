@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incomplete Pokedex</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        button{
+            display:block;
+            width:65px;
+            height:auto;
+            color:white;
+            cursor:pointer;
+        }
+
+        img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .grass{
+            background-color:#3CF500;
+        }
+
+        .poison{
+            background-color:purple;
+        }
+
+        .water{
+            background-color:#00D6EF;
+        }
+
+        .fire{
+            background-color:#FF3700;
+        }
+
+        .electric{
+            background-color:#F0CE00;
+        }
+
+        a{
+            text-decoration: none;
+            color:black;
+            font-family:'Press Start 2P', cursive;
+            font-size:10px;
+        }
+
+        a:hover{
+            color:red;
+        }
+
+        button:hover{
+
+            box-shadow: 1px 1px #000000
+        }
+
+
+table{
+position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+img.pokedex{
+    margin-top: 27%;
+}
+
+h1{
+    font-family:'Press Start 2P', cursive;
+    color:#D8BA00;
+    text-shadow:5px 5px #0054B4
+}
+
+
+    </style>
+</head>
+<body>
+    <h1 style='margin-left:43.5%'>Pokedex</h1>
+
+    <img class='pokedex' src="https://pa1.narvii.com/5806/741a006c3766e24bc6687dfd2c3434b14ae7c1ca_hq.gif" alt='pokedex'>
+
+
+    <table border='1'>
+        <thead>
+            <tr>
+            <th>#</th>
+            <th>Pokemon</th>
+            <th>Name</th>
+            <th>Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>001</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/bulbasaur.png' alt='bulbasaur'></td>
+            <td><a href='pokedex/bulbasaur.html'>Bulbasaur</a></td>
+            <td><a href='types/grass.html'><button class='grass'>GRASS</button></a><a href='types/poison.html'><button class='poison'>POISON</button></a></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/ivysaur.png' alt='ivysaur'></td>
+            <td><a href='pokedex/ivysaur.html'>Ivysaur</a></td>
+            <td><a href='types/grass.html'><button class='grass'>GRASS</button></a><a href='types/poison.html'><button class='poison'>POISON</button></a></td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/charmander.png' alt='charmander'></td>
+            <td><a href='pokedex/charmander.html'>Charmander</a></td>
+            <td><a href='types/fire.html'><button class='fire'>FIRE</button></a></td>
+        </tr>
+        <tr>
+            <td>005</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/charmeleon.png' alt='charmeleon'></td>
+            <td><a href='pokedex/charmeleon.html'>Charmeleon</a></td>
+            <td><a href='types/fire.html'><button class='fire'>FIRE</button></a></td>
+        </tr>
+        <tr>
+            <td>007</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/squirtle.png' alt='squirtle'></td>
+            <td><a href='pokedex/squirtle.html'>Squirtle</a></td>
+            <td><a href='types/water.html'><button class='water'>WATER</button></a></td>
+        </tr>
+        <tr>
+            <td>008</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/wartortle.png' alt='wartortle'></td>
+            <td><a href='pokedex/wartortle.html'>Wartortle</a></td>
+            <td><a href='types/water.html'><button class='water'>WATER</button></a></td>
+        </tr>
+        <tr>
+            <td>025</td>
+            <td><img src='https://img.pokemondb.net/sprites/sword-shield/icon/pikachu.png' alt='pikachu'></td>
+            <td><a href='pokedex/pikachu.html'>Pikachu</a></td>
+            <td><a href='types/electric.html'><button class='electric'>ELECTRIC</button></a></td>
+        </tr>
+
+    </tbody>
+            <tfoot>
+            <tr>
+            <td colspan='4'>
+            To be continued, gotta catch 'em all!
+            </td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+</body>
+
+
+</html>
